@@ -1,9 +1,0 @@
-com/example/db/entity/UserEntity.class
-com/example/rest/UserRestService.class
-com/example/db/dao/UserDao.class
-com/example/db/dao/ProductDao.class
-com/example/config/JaxRSApplication.class
-com/example/db/entity/ProductEntity.class
-com/example/rest/ProductRestService.class
-com/example/security/BasicAuthConfig.class
-com/example/rest/HelloService.class
