@@ -1,0 +1,20 @@
+<!--<payara>-->
+<!--    <jdbc-resource jndi-name="jdbc/MyDS"-->
+<!--                   datasource-classname="com.mysql.cj.jdbc.MysqlDataSource"-->
+<!--                   server-name="localhost"-->
+<!--                   port="3306"-->
+<!--                   database-name="mydatabase"-->
+<!--                   user="root"-->
+<!--                   password="Njabulo@13sql" />-->
+<!--</payara>-->
+
+
+<!--<data-source>-->
+<!--<name>java:global/ExampleDataSource</name>-->
+<!--<class-name>com.mysql.jdbc.jdbc2.optional.MysqlXADataSource</class-name>-->
+<!--<server-name>localhost</server-name>-->
+<!--<port-number>3306</port-number>-->
+<!--<database-name>yourDatabaseName</database-name>-->
+<!--<user>yourUsername</user>-->
+<!--<password>yourPassword</password>-->
+<!--</data-source>-->

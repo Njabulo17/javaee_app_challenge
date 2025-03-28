@@ -1,0 +1,27 @@
+services:
+   mysql-database:
+      image: mysql
+      container_name: mysql-compose-db
+      restart: unless-stopped
+      ports:
+        - "3306:3306"
+      environment:
+        MYSQL_ROOT_PASSWORD: Njabulo@13sql
+        MYSQL_DATABASE: mydatabase
+        MYSQL_USER: app_user
+        MYSQL_PASSWORD: app_password
+      volumes:
+        - db_data:/var/lib/mysql
+
+   javaee-app-war:
+      image: njidocker13/my_javaee_app_war:v1.0
+      container_name: war-transfer-temp
+      volumes:
+        - ./local-deployments:/app-output
+      command: sh -c "cp /app/JavaEEApp-1.0-SNAPSHOT.war /app-output && sleep infinity" 
+      depends_on:
+        - mysql-database
+      restart: "no"
+
+volumes:
+  db_data:

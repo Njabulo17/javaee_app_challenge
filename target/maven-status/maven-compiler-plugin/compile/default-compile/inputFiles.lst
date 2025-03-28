@@ -1,0 +1,9 @@
+/Users/njabulo.mbanjwa/Documents/GitHub/javaee_app_challenge/src/main/java/com/example/config/JaxRSApplication.java
+/Users/njabulo.mbanjwa/Documents/GitHub/javaee_app_challenge/src/main/java/com/example/db/dao/ProductDao.java
+/Users/njabulo.mbanjwa/Documents/GitHub/javaee_app_challenge/src/main/java/com/example/db/dao/UserDao.java
+/Users/njabulo.mbanjwa/Documents/GitHub/javaee_app_challenge/src/main/java/com/example/db/entity/ProductEntity.java
+/Users/njabulo.mbanjwa/Documents/GitHub/javaee_app_challenge/src/main/java/com/example/db/entity/UserEntity.java
+/Users/njabulo.mbanjwa/Documents/GitHub/javaee_app_challenge/src/main/java/com/example/rest/HelloService.java
+/Users/njabulo.mbanjwa/Documents/GitHub/javaee_app_challenge/src/main/java/com/example/rest/ProductRestService.java
+/Users/njabulo.mbanjwa/Documents/GitHub/javaee_app_challenge/src/main/java/com/example/rest/UserRestService.java
+/Users/njabulo.mbanjwa/Documents/GitHub/javaee_app_challenge/src/main/java/com/example/security/BasicAuthConfig.java
